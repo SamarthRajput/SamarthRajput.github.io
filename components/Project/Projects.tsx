@@ -2,19 +2,26 @@
 import { motion} from "framer-motion"
 import { useInView } from "react-intersection-observer"
 import ProjectCard from "./Projectcard";
-import { ModalProvider } from "../ui/animated-modal";
 import Link from "next/link";
-import { title } from "process";
 
-export const ProjectsData = [{
-    title: "s",
-    description:
-      "s",
+export const ProjectsData = [
+  {
+    title: "Blog App",
+    description: "Created a Blog App with user authentication, blog posting, and browsing capabilities. Users can sign up, post blogs, view all blogs, and read individual posts.",
     tags: ["React", "Next.js", "PostgreSQL", "Tailwind", "Prisma","Typescript"],
-    githubLink: "https://www.google.com",
-    livelink: "https://www.google.com",
-    imageUrl: "sds",
-}, ] as const;
+    githubLink: "https://github.com/SamarthRajput/Blog-app",
+    livelink: "https://blog-app-red-kappa.vercel.app/",
+    imageUrl: "public/blogapp.png"
+  }, 
+  {
+    title: "Wallet App",
+    description: "Created a Wallet App where users manage balances and transfer funds seamlessly.",
+    tags: ["React", "Tailwind CSS", "Express", "JWT", "MongoDB", "Zod"],
+    githubLink: "https://github.com/SamarthRajput/Wallet-App",
+    livelink: "",
+    imageUrl: "public/walletapp.png"
+  } 
+] as const;
 
 export default function Projects() {
 
