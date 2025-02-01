@@ -14,13 +14,13 @@ import { GrGlobe } from "react-icons/gr";
 // }
 
 export default function ProjectCard({data}: any){
-    return <Card className="w-full sm:w-[39%] rounded-lg overflow-hidden shadow-lg h-[520px] flex flex-col" >
+    return <Card className="w-full sm:w-[29%] rounded-lg overflow-hidden shadow-lg h-[520px] flex flex-col" >
         <img 
-            src={data.imgUrl}
+            src={data.imageUrl}
             alt="Project Thumbnail"
             width={400}
             height={500}
-            className="w-full h-50 object-cover"
+            className="w-full h-60"
         />
         <CardContent className="p-6 space-y-4 flex flex-col flex-grow justify-between">
 

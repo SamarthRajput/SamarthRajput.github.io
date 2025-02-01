@@ -13,13 +13,13 @@ export default function Navbar(){
     >
         <div className="flex items-center justify-between p-5 lg:container">
             <div className="flex items-center gap-5 ml-[100px]">
-                <Link href="/">Sam</Link>
+                <Link href="/" className="text-xl font-bold">Sam</Link>
 
-                <div className="sm:flex hidden items-center gap-5">
+                <div className="sm:flex hidden items-center gap-5 ml-16">
+                    <Link href="/#aboutme" className="text-sm hover:text-gray-400 cursor-pointer">Skills</Link>
                     <Link href="/projects" className="text-sm hover:text-gray-400 cursor-pointer">Projects</Link>
                     <Link href="/#experience" className="text-sm hover:text-gray-400 cursor-pointer">Experience</Link>
-                    <Link href="/#aboutme" className="text-sm hover:text-gray-400 cursor-pointer">About Me</Link>
-                    <Link href="/#contact" className="text-sm hover:text-gray-400 cursor-pointer">Contact</Link>
+                    <Link href="/#contactme" className="text-sm hover:text-gray-400 cursor-pointer">Contact</Link>
                 </div>
             </div>
 
