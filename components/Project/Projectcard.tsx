@@ -14,8 +14,8 @@ import Image from "next/image";
 //     livelink: string
 // }
 
-// @ts-ignore
-export default function ProjectCard({data}: any){
+
+export default function ProjectCard({data}: any){ // eslint-disable-line @typescript-eslint/no-explicit-any
     return <Card className="w-full sm:w-[29%] rounded-lg overflow-hidden shadow-lg h-[520px] flex flex-col" >
         <Image 
             src={data.imageUrl}
@@ -36,7 +36,7 @@ export default function ProjectCard({data}: any){
             <div className="space-y-2">
                 <div className="text-sm font-medium">Technologies Used:</div>
                 <div className="flex flex-wrap gap-2">
-                    {data.tags.map((tag: any) => (
+                    {data.tags.map((tag: any) => ( // eslint-disable-line @typescript-eslint/no-explicit-any
                         <Badge key={tag} variant={"outline"}>
                             {tag}
                         </Badge>

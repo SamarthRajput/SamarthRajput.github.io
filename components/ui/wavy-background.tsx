@@ -15,7 +15,7 @@ export const WavyBackground = ({
   waveOpacity = 0.5,
   ...props
 }: {
-  children?: any;
+  children?: any; // eslint-disable-line @typescript-eslint/no-explicit-any
   className?: string;
   containerClassName?: string;
   colors?: string[];
@@ -24,7 +24,7 @@ export const WavyBackground = ({
   blur?: number;
   speed?: "slow" | "fast";
   waveOpacity?: number;
-  [key: string]: any;
+  [key: string]: any; // eslint-disable-line @typescript-eslint/no-explicit-any
 }) => {
   const noise = createNoise3D();
   let w: number,
@@ -32,8 +32,8 @@ export const WavyBackground = ({
     nt: number,
     i: number,
     x: number,
-    ctx: any,
-    canvas: any;
+    ctx: any, // eslint-disable-line @typescript-eslint/no-explicit-any
+    canvas: any;  // eslint-disable-line @typescript-eslint/no-explicit-any
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const getSpeed = () => {
     switch (speed) {

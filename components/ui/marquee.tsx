@@ -1,6 +1,5 @@
 import { cn } from "@/lib/utils";
-
-// @ts-ignore
+ 
 interface MarqueeProps {
   className?: string;
   reverse?: boolean;
@@ -8,7 +7,7 @@ interface MarqueeProps {
   children?: React.ReactNode;
   vertical?: boolean;
   repeat?: number;
-  [key: string]: any;
+  [key: string]: any;   // eslint-disable-line @typescript-eslint/no-explicit-any
 }
 
 export default function Marquee({
