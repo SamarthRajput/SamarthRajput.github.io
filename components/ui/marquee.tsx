@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 
+// @ts-ignore
 interface MarqueeProps {
   className?: string;
   reverse?: boolean;

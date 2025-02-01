@@ -49,7 +49,7 @@ export const ProjectsData = [
   
 
 
-export default function MoreProjects(){
+export default function Page(){
 
     const { ref, inView } = useInView({
         triggerOnce: true,

@@ -66,7 +66,7 @@ export const LinkPreview = ({
   const x = useMotionValue(0);
 
   const translateX = useSpring(x, springConfig);
-
+  // @ts-ignore
   const handleMouseMove = (event: any) => {
     const targetRect = event.target.getBoundingClientRect();
     const eventOffsetX = event.clientX - targetRect.left;

@@ -42,7 +42,7 @@ export default function ContactMe(){
             </LinkPreview>
             <br />
 
-            and I'll respond whenever I can.
+            and I&apos;ll respond whenever I can.
         </div>
 
 
