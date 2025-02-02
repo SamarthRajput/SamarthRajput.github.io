@@ -4,7 +4,7 @@ import { useInView } from "react-intersection-observer"
 import ProjectCard from "@/components/Project/Projectcard";
 import Navbar from "@/components/Navbar";
 
-export const ProjectsData = [
+const ProjectsData = [
     {
       title: "Digital Wallet",
       description: "Created a Digital Wallet App, where user can send money to friends directly through phone number-based transfers (p2p) and keep track of all your recent transactions",
@@ -49,7 +49,7 @@ export const ProjectsData = [
   
 
 
-export default function Page(){
+export default function Projects(){
 
     const { ref, inView } = useInView({
         triggerOnce: true,
