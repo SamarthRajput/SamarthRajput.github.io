@@ -44,7 +44,7 @@ export default function Hero(){
             >
                 <Button asChild>
                     <Link 
-                        href={"https://drive.google.com/file/d/1Q_QrNKi1QNhC5DGHjsgigj8BOiva5QNL/view"}
+                        href={"https://drive.google.com/file/d/13gxdtzg75Vr5GUKbeee10uCmlxe2EZGl/view?usp=sharing"}
                         target="_blank"
                         rel="noopener noreferrer"
                     >
