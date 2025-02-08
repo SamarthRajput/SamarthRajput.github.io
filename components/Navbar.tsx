@@ -2,6 +2,7 @@
 import Link from "next/link"
 import { motion } from "framer-motion";
 import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa6";
+import SmallNav from "./ReTractableNav";
 
 export default function Navbar(){
     return (
@@ -12,7 +13,7 @@ export default function Navbar(){
         className="border-b bg-black z-50 relative bg-opacity-50"
     >
         <div className="flex items-center justify-between p-5 lg:container">
-            <div className="flex items-center gap-5 ml-[100px]">
+            <div className="flex items-center gap-5 ml-[60px]">
                 <Link href="/" className="text-xl font-bold">Sam</Link>
 
                 <div className="sm:flex hidden items-center gap-5 ml-16">
@@ -46,8 +47,7 @@ export default function Navbar(){
                 </Link>
 
             </div>
-
-
+            <SmallNav />
         </div>
 
     </motion.div>

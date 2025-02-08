@@ -1,4 +1,3 @@
-import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Project/Projects";
 import AboutMe from "@/components/Aboutme/AboutMe";
@@ -8,7 +7,6 @@ import ContactMe from "@/components/ContactMe/Contactme";
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <Hero />
       <AboutMe />
       <Projects />

@@ -2,7 +2,7 @@
 import { motion} from "framer-motion"
 import { useInView } from "react-intersection-observer"
 import ProjectCard from "@/components/Project/Projectcard";
-import Navbar from "@/components/Navbar";
+
 
 const ProjectsData = [
     {
@@ -58,7 +58,6 @@ export default function Projects(){
 
     return (
         <div>
-            <Navbar />
             <motion.div
                 ref={ref}
                 initial={{ opacity: 0, y: 30 }}
