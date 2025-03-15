@@ -25,8 +25,8 @@ const ProjectsData = [
       title: "Wallet App",
       description: "Created a Wallet App where users manage balances and transfer funds seamlessly.",
       tags: ["React", "Tailwind CSS", "Express", "JWT", "MongoDB", "Zod"],
-      githubLink: "https://github.com/SamarthRajput/Wallet-App",
-      livelink: "",
+      githubLink: "https://github.com/SamarthRajput/ai-interview-app",
+      livelink: "https://ai-interview-app-seven.vercel.app/",
       imageUrl: "/walletapp.png"
     },
     {
