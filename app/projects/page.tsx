@@ -25,16 +25,16 @@ const ProjectsData = [
       title: "Wallet App",
       description: "Created a Wallet App where users manage balances and transfer funds seamlessly.",
       tags: ["React", "Tailwind CSS", "Express", "JWT", "MongoDB", "Zod"],
-      githubLink: "https://github.com/SamarthRajput/ai-interview-app",
-      livelink: "https://ai-interview-app-seven.vercel.app/",
+      githubLink: "https://github.com/SamarthRajput/Wallet-App",
+      livelink: "",
       imageUrl: "/walletapp.png"
     },
     {
         title: "AI Interview App",
         description: "Created an AI-interview App where user have to turn on their camera's, audio and screen share to start the test. he question will be first spoken by the AI and then you have to answer the question",
         tags: ["React", "Tailwind CSS", "Express", "JWT", "MongoDB", "Zod"],
-        githubLink: "https://github.com/SamarthRajput/Wallet-App",
-        livelink: "",
+        githubLink: "https://github.com/SamarthRajput/ai-interview-app",
+        livelink: "https://ai-interview-app-seven.vercel.app/",
         imageUrl: "/aiinterview.png"
     },
     {
