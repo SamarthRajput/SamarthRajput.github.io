@@ -6,12 +6,19 @@ import ProjectCard from "@/components/Project/Projectcard";
 
 const ProjectsData = [
     {
-      title: "Digital Wallet",
-      description: "Created a Digital Wallet App, where user can send money to friends directly through phone number-based transfers (p2p) and keep track of all your recent transactions",
-      tags: ["Turbo Repo", "CI/CD", "Next.js", "Tailwind", "Prisma", "PostgreSQL", "Typescript"],
-      githubLink: "https://github.com/SamarthRajput/DigitalWallet",
-      livelink: "",
-      imageUrl: "/digitalwallet.jpeg"
+    title: "Swapify - Exchange App",
+    description: "Swapify is a robust exchange application that allows users to track the current share prices of various markets, such as Solana (SOL) and Bitcoin (BTC).",
+    tags: ["Next.js", "Tailwind", "Express.js", "Proxy Server", "Typescript", "WebSocket"],
+    githubLink: "https://github.com/SamarthRajput/Exchange-app",
+    livelink: "https://swapify-seven.vercel.app/",
+    imageUrl: "/exchange.png"
+    },{
+        title: "AI Interview App",
+        description: "Created an AI-interview App where user have to turn on their camera's, audio and screen share to start the test. he question will be first spoken by the AI and then you have to answer the question",
+        tags: ["React", "Tailwind CSS", "Express", "JWT", "MongoDB", "Zod"],
+        githubLink: "https://github.com/SamarthRajput/ai-interview-app",
+        livelink: "https://ai-interview-app-seven.vercel.app/",
+        imageUrl: "/aiinterview.png"
     },
     {
       title: "Blog App",
@@ -28,14 +35,13 @@ const ProjectsData = [
       githubLink: "https://github.com/SamarthRajput/Wallet-App",
       livelink: "",
       imageUrl: "/walletapp.png"
-    },
-    {
-        title: "AI Interview App",
-        description: "Created an AI-interview App where user have to turn on their camera's, audio and screen share to start the test. he question will be first spoken by the AI and then you have to answer the question",
-        tags: ["React", "Tailwind CSS", "Express", "JWT", "MongoDB", "Zod"],
-        githubLink: "https://github.com/SamarthRajput/ai-interview-app",
-        livelink: "https://ai-interview-app-seven.vercel.app/",
-        imageUrl: "/aiinterview.png"
+    },{
+      title: "Digital Wallet",
+      description: "Created a Digital Wallet App, where user can send money to friends directly through phone number-based transfers (p2p) and keep track of all your recent transactions",
+      tags: ["Turbo Repo", "CI/CD", "Next.js", "Tailwind", "Prisma", "PostgreSQL", "Typescript"],
+      githubLink: "https://github.com/SamarthRajput/DigitalWallet",
+      livelink: "",
+      imageUrl: "/digitalwallet.jpeg"
     },
     {
         title: "Card UI Component",
