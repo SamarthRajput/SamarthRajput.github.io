@@ -33,7 +33,7 @@ const ProjectsData = [
       description: "Created a Wallet App where users manage balances and transfer funds seamlessly.",
       tags: ["React", "Tailwind CSS", "Express", "JWT", "MongoDB", "Zod"],
       githubLink: "https://github.com/SamarthRajput/Wallet-App",
-      livelink: "",
+      livelink: "https://wallet-app-tau.vercel.app/",
       imageUrl: "/walletapp.png"
     },{
       title: "Digital Wallet",
