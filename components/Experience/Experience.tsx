@@ -11,16 +11,25 @@ const experiencesData = [
     location: "New Delhi, India",
     organization: "Vivekananda Institute of Professional Studies",
     description:
-      "I am nearing the completion of my computer engineering degree, currently in the 3rd year. ",
+      "I am nearing the completion of my computer engineering degree, currently in the 4th year. ",
     icon: <FaGraduationCap className="w-[40px] h-[40px]" />,
     date: "2022 - present",
+  },
+  {
+    title: "Full Stack Developer Intern",
+    location: "Remote",
+    organization: "Promptly AI Pvt Ltd",
+    description:
+      "As a freelance Full Stack Developer, I build end-to-end web solutions, from crafting visually compelling and responsive landing pages to developing robust backend systems, ensuring seamless functionality, scalability, and a powerful online presence for businesses.",
+    icon: <IoLaptopOutline className="w-[40px] h-[40px]" />,
+    date: "June 2025 - Present",
   },
   {
     title: "Freelance Full Stack Developer",
     location: "Remote",
     organization: "Self-Employed",
     description:
-      "As a freelance front-end developer, I specialize in creating dynamic and visually appealing landing pages. My work involves using modern technologies to deliver responsive and user-friendly designs that help businesses enhance their online presence.",
+      "As a freelance Full Stack Developer, I build responsive landing pages and powerful backend systems that enhance business presence online.",
     icon: <IoLaptopOutline className="w-[40px] h-[40px]" />,
     date: "Ongoing",
   },
